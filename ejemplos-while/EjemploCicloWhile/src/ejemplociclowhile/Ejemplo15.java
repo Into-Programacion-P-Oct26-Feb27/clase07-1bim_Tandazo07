@@ -13,7 +13,7 @@ public class Ejemplo15 {
     public static void main(String[] args) {
         
         int contador = 1;
-        int limite = 2;
+        int limite = 1;
         while (contador < limite ) {
             System.out.printf("Valor %d\n", contador);
 
@@ -22,5 +22,5 @@ public class Ejemplo15 {
 }
 /*
 Nunca ingreso al ciclo por que contador y limite valen lo mismo por lo tanto 
-
+es falso y el while no se ejecuta ni una sola vez  
 */
